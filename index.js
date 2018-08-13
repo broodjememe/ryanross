@@ -31,7 +31,12 @@ bot.on("message", async message => {
     if (command === `${prefix}hey`) {
 
         return message.channel.send("Hey I got cheez wiz");
+    }   
+   
+    if (command === `${prefix}ryan babe`) {
 
+        return message.channel.send("Hey babe :heart:");
+        
     }
 
     if (command === `${prefix}info`) {
